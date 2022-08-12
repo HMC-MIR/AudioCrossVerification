@@ -7,7 +7,8 @@ A system to detect tampered audio by cross referencing a query audio with a veri
 
 3. MFCC_baseline.ipynb provides the naive solution to the audio cross verification problem by comparing the similarity of the reference and the query MFCC features using Euclidean distance.
 
-4a. HSTW-MLv0.2-cython.ipynb is one of our solutions to the audio cross verification problem using hidden state time warping (https://github.com/HMC-MIR/HSTW) to align the query to the reference. Using the alignment path, we are able to compute a modified z-score to represent the audio tampering.
+4. 
+ - HSTW-MLv0.2-cython.ipynb is one of our solutions to the audio cross verification problem using hidden state time warping (https://github.com/HMC-MIR/HSTW) to align the query to the reference. Using the alignment path, we are able to compute a modified z-score to represent the audio tampering.
 
-4b. IQR.ipynb provides an alternative solution, using a hashprint feature representation along with a outlier detection system to classify tampering.
+ -  IQR.ipynb provides an alternative solution, using a hashprint feature representation along with a outlier detection system to classify tampering.
 
